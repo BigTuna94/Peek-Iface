@@ -1,0 +1,13 @@
+[package]
+name = "peek_iface"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quicli = "0.4"
+structopt = "0.2"
+
+[dependencies.pnet]
+version = "0.30.0"
